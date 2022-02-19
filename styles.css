@@ -22,7 +22,7 @@ body {
 .brand-logo {
   display: flex;
   align-items: center;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: inherit;
   text-decoration: none;
 }

@@ -1,4 +1,4 @@
-.home-main-section {
+ .home-main-section {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
@@ -14,14 +14,17 @@
 }
 
 .home-main-section .lady-image {
-  background-image: url(images/landing-page-girl.png);
+  background-image: url(images/copper.jpg);
   flex-grow: 1;
   max-height: 70vh;
   min-width: 30vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom left;
+  clip-path: circle(32%);
+  
 }
+
 
 .home-main-section .call-to-action {
   display: flex;
